@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context=".ArticlesActivity">
+
+    <!-- Here's our Fragment XML element for Article List Fragment, inside our root layout element which is a LinearLayout.   -->
+    <!-- The key thing to note here is the attribute "name". Its value references the Java class of this Fragment, i.e. ArticleListFragment.   -->
+    <fragment
+        android:id="@+id/fragmentArticleList"
+        android:name="uk.co.edwardquixote.Zalego.StaticFragments.ArticleListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:padding="16dp"/>
+
+    <!-- Here's our FrameLayout XML element. We'll load and interchange Article Detail Fragment & Nothing to Show Fragment inside it.   -->
+    <!-- For this, we'll think of it as a Fragment container. We'll also leave it empty, i.e. no children in this layout file.   -->
+    <FrameLayout
+        android:id="@+id/frameLayoutArticleFragmentContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:padding="16dp">
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    Here's out RecyclerView     -->
+    <!--    We have to write the full package name for the element; the RecyclerView class belongs in the "androidx.recyclerview.widget" package.    -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvArticleList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:scrollbars="none"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StaticFragments</string>
+
+    <string name="txtArticleTitle">Title of Article</string>
+    <string name="txtArticleDateAndAuthor">Date &amp; Author</string>
+    <string name="txtArticleContent">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="txtNothingToShow">You haven\'t selected any article, yet.\nSelect one from the article list.</string>
+
+    <string name="imgvArticleImage">Article Image</string>
+    <string name="imgvNothingToShow">Nothing to Show</string>
+</resources>

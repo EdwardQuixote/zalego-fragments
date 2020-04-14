@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+    <!-- Our root layout element is a LinearLayout.     -->
+    <!-- Notice that we changed the orientation to "horizontal", the height to "wrap_content" and added some padding.     -->
+
+
+    <!-- Here is our ImageView. It'll simply show a default image; we won't change this image.  -->
+    <ImageView
+        android:id="@+id/imgvArticleListItem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/imgvArticleImage"
+        android:scaleType="centerInside"/>
+
+    <!-- Here is our TextView. It'll simply show the title of an Article.  -->
+    <TextView
+        android:id="@+id/txtArticleListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/txtArticleTitle"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+</LinearLayout>
